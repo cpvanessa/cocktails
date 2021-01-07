@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    color: black;
+    color:  rgb(133, 10, 10) ;
     scroll-behavior: smooth
 }
 
 body {
     background:white;
+    height: 2000px;
 }
 
 header {
@@ -19,26 +20,42 @@ header {
     z-index: 10;
 }
 
+h1, h3{
+    text-align: center;
+    font-family:'Monserrrat', sans-serif;
+    
+    font-weight: bolder;
+}
 
+#linea{
+    border: 2px solid  rgb(133, 10, 10) ;
+    width: 300px;
+    margin: 10px 0 0 525px;
+}
 .intro{
     width: 100%;
     height: auto;
 }
 
 
-p#cote {
-    font-size: 14px;
-    font-weight: 100;
-    transform: translate(-50%, -50%) rotate(-90deg);
-    position: absolute;
-    top: 40vh;
-    left: 2px;
-    margin-left: 20px
-}
 
 div.principal{
-   margin: auto 30px;
+   margin: auto 50px;
 }
+
+section>article>h3{
+    text-align:inherit;
+}
+
+.container{
+    width: 500px;
+}
+form{
+    margin-top: 400px;
+
+}
+
+
 @media screen and (min-width:1199px) {
 
     
@@ -57,11 +74,19 @@ div.principal{
     }
 
     h2+hr {
-        border: 2px solid black;
+        border: 2px solid  rgb(133, 10, 10) ;
         width: 68px;
         margin: 3px 0 0 110px;
     }
-    
+
+    #jeremy{
+        text-decoration: red;
+        font-size: 15px;
+        color: rgb(133, 10, 10) ;
+    }
+
+  
+
     div#equipe>figure>img {
    width: 350px;
     }
@@ -74,6 +99,27 @@ div.principal{
         width: 90%;
         margin: 40px auto 0
     }
+
+    #about{
+        width: 90%;
+       
+        margin: 40px 50px;
+    }
+  
+    #about > article >p+ul{
+        text-align:center;
+        margin-top: 20px;
+        
+    
+    }
+    #about  >article >p {
+    margin-top: 20px;
+    text-align:center;}
+
+li{
+    list-style: none;
+    }
+  
 
     /* fin section equipe */
     div#goute1{
@@ -221,16 +267,16 @@ div.principal{
         background-size: cover;
     }
 
-    .droite {
-        position: absolute;
-        right: 20%;
-        top: 30%;
-        width: 450px;
+    h4{
+display:none;
     }
 }
 
 @media screen and (max-width:1198px) {
-
+h4{
+    font-size: 70px;
+    text-align:center;
+}
     /* section equipe */
 
     section#team>article>h2 {
@@ -292,36 +338,17 @@ div.principal{
 
     }
 
-    
-/* 
-    .droite {
-        position: initial;
-        width: 80%;
-        margin: auto;
-    } */
-}
 
 
 h1 {
     font-size: 25px;
 }
 
-.droite>a {
-    width: 200px;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    background: transparent;
-    font-size: 15px;
-    border: 2px solid black;
-    margin: 15px 0;
-    display: block;
-}
+
 
 h2 {
     font-size: 20px;
     font-weight: 300
 }
 
-
-/* fin section accueil */
+}

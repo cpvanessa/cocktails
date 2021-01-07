@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DORARNAQUE</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/nav.css">
+     
     <link rel="icon" type="image/png" href="assets/images/triangle.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="assets/js/nav.js"></script>
@@ -21,11 +23,10 @@
         <nav class="topnav" id="myTopnav">
             <ul>
            
-            <a class= "logo" href="#home" class="active"><img src="assets/images/fevergrande.svg" alt=""></a>
-            <a  class= "menu" href="#register">Register</a>
-            <a  class= "menu" href="#contact">Contact</a>
-            <a  class= "menu" href="#products">Products</a>
-            <a class= "menu" href="#about">About</a>
+            <a class= "logo" href="#home" class="active"><img src="assets/images/doranco.png" alt=""></a>
+            <a class= "menu" href="#contact">Contact</a>
+            <a class= "menu" href="#equipe">Notre équipe</a>
+            <a class= "menu" href="#about">Qui nous sommes</a>
          
             <a  href="javascript:void(0)" class="icon" onclick="menuburger()"> <i class="fa fa-bars"></i></a>
             </ul>
@@ -33,7 +34,9 @@
     </header>
 
     <main>
-        
+        <h1>DORARNAQUE</h1>
+        <h3>Vous vous démerdez et nous profitons de la vie</h3>
+        <hr id="linea">
         <!-- debut page accueil -->
         <section class= "intro">
             <article>
@@ -41,31 +44,42 @@
                 
                 <div class="cocktails">
                     <div id="goute1">
-                        <a href="#team" id="a1"><span></span></a>
+                        <a href="www.google.com" id="a1"><span>Google</span></a>
                     </div>
                     <div id="goute2">
-                        <a href="#team" id="a2"><span></span></a>
+                        <a href="www.youtube.com" id="a2"><span>Youtube</span></a>
                     </div>
                     <div id="goute3">
-                        <a href="#team" id="a3"><span></span></a>
+                        <a href="https://stackoverflow.com/" id="a3"><span>Stackoverflow</span></a>
                     </div>
                 </div>
-               
-                <!-- <div class="droite">
-                    <h1>Créer son site Web</h1>
-                    <h2>27 | 06 | 2021</h2>
-                    <a href="">En savoir +</a>
-                    <p>Lorem ipsum<br>dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam quisquam labore, eos dolorem dolores, culpa cupiditate recusandae tenetur deleniti magni debitis, consectetur optio sunt eligendi neque distinctio fugiat consequatur?</p>
-                </div> -->
-                
+                            
                 
 
             </article>
 
         </section>
+
+        <h4>VOUS PENSIEZ QUE C'ETAIT RESPONSIVE?? HAHAHAHAHA</h4>
+            <!-- qui sommes nous -->
+
+            <section id="about">
+
+                <article>
+                    <h2>Qui sommes nous</h2>
+                    <hr>
+                    <p>Nous sommes une bande d'arnaqueurs, vendeur de rêves et développeurs mediocres qui cherchons à remplire la caisse avec l'argent de la région.</p>
+                    <p>Nous vous donnerons les 3 clés de la réussite:
+                        <ul><li>Travaillez jour et soir!</li>
+                        <li>Accrochez-vous!</li>
+                        <li>Démerdez-vous!</li></ul>
+                    </p>
+                    </div>
+                </article>
+            </section>
         <!-- fin page accueil -->
         <div class="principal">
-    
+
         <!-- debut notre equipe -->
         <section id="team">
 
@@ -73,26 +87,41 @@
                 <h2>Notre Equipe</h2>
                 <hr>
                 <div id="equipe">
-                    <figure><img src="assets/images/frog.jpg" alt=""><figcaption>D</figcaption></figure>
-                    <figure><img src="assets/images/frog2.jpg" alt="portrait"><figcaption>J</figcaption></figure>
-                    <figure><img src="assets/images/frog4.jpg" alt="portrait"><figcaption>S</figcaption></figure>
+                    <figure><img src="assets/images/frog.jpg" alt=""><figcaption>$maine</figcaption></figure>
+                    <figure><img src="assets/images/frog2.jpg" alt="portrait"><figcaption><a id="jeremy"href="jeremy.html">Jerelafaiscourte</a></figcaption></figure>
+                    <figure><img src="assets/images/frog4.jpg" alt="portrait"><figcaption>Didi</figcaption></figure>
                 </div>
             </article>
         </section>
         <!-- fin de notre equipe -->
-               
-        <!-- debut profil -->
-       <section></section>
-        <!-- fin profil -->
 
-        <!-- debut profil 2 -->
-        <section></section>
-        <!-- fin profil 2 -->
-
-        <!-- début jumbo -->
-        <section></section>
-        <!-- fin jumbo -->
-        </div>
+        <h4>VOUS PENSIEZ QUE C'ETAIT RESPONSIVE?? HAHAHAHAHA</h4>
+        <div class="container" id="contact">    
+        <form class="container-fluid">
+            <h2>Contactez-nous</h2>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Votre email">
+            </div>
+            <div class="form-group">
+                <label for="">Nom</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Votre nom">
+              </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Choisissez votre formation </label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Copier coller</option>
+                <option>Devenir prof Doranco</option>
+                <option>Magouilleur </option>
+                <option>Darty</option>
+              </select>
+            </div>
+           
+              <label for="exampleFormControlTextarea1">Votre messsage</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder= "Peu importe votre message, la réponse sera toujours la même: accrochez-vous et bonne réussite!"></textarea>
+            </div>
+          </form>
+        </div> 
     </main>
     
 </body>
