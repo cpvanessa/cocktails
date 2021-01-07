@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    scroll-behavior: smooth
+}
+
+body {
+    background:white;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+
+    /* position: fixed; */
+    z-index: 10;
+}
+
+
+.intro{
+    width: 100%;
+    height: auto;
+}
+
+
+p#cote {
+    font-size: 14px;
+    font-weight: 100;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    position: absolute;
+    top: 40vh;
+    left: 2px;
+    margin-left: 20px
+}
+
+div.principal{
+   margin: auto 30px;
+}
+@media screen and (min-width:1199px) {
+
+    
+
+
+  nav > ul>  a> img{width:80px;}
+    /* section equipe */
+
+    section#team>article>h2 {
+        font-size: 25px;
+    }
+
+
+    section#team {
+        padding-top: 60px
+    }
+
+    h2+hr {
+        border: 2px solid black;
+        width: 68px;
+        margin: 3px 0 0 110px;
+    }
+    
+    div#equipe>figure>img {
+   width: 350px;
+    }
+    div#equipe>figure {
+        float: left;
+        margin: 5px;
+    }
+
+    div#equipe {
+        width: 90%;
+        margin: 40px auto 0
+    }
+
+    /* fin section equipe */
+    div#goute1{
+        height: -150px;
+        width: 100%;
+        position: relative
+    }
+
+    div#goute2{
+        height: 50px;
+        width: 100%;
+        position: relative
+    }
+
+    div#goute3{
+        height: -50px;
+        width: 100%;
+        position: relative
+    }
+
+ 
+    #a1 span {
+        position: absolute;
+        top: 10px;
+        left: 17.7%;
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: rgb(8, 141, 19);
+        border-radius: 50%;
+        margin-left: 10px;
+        animation: bille1 3s infinite reverse
+    }
+    
+
+    #a2 span {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: rgb(153, 6, 92);
+        border-radius: 50%;
+        margin-left: 10px;
+        animation: bille2 2s infinite
+    }
+
+    
+    #a3 span {
+        position: absolute;
+        top: 10px;
+        left: 84.6%;
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: rgb(64, 134, 192);
+        border-radius: 50%;
+        margin-left: 10px;
+        animation: bille3 3s reverse infinite
+    }
+
+
+    @keyframes bille1 {
+
+        0% {
+            transform: translate(0, 0);
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 1
+        }
+
+        80% {
+            transform: translate(0, 60px);
+            opacity: 0
+        }
+
+        100% {
+            opacity: 0
+        }
+
+    }
+
+    @keyframes bille2 {
+
+        0% {
+            transform: translate(0, 0);
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 1
+        }
+
+        80% {
+            transform: translate(0, 60px);
+            opacity: 0
+        }
+
+        100% {
+            opacity: 0
+        }
+
+    }
+    @keyframes bille3 {
+
+        0% {
+            transform: translate(0, 0);
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 1
+        }
+
+        80% {
+            transform: translate(0, 60px);
+            opacity: 0
+        }
+
+        100% {
+            opacity: 0
+        }
+
+    }
+
+
+    main {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .intro{
+        width: 100%;
+    }
+    .cocktails {
+        height: 384px;
+        width: 100%;
+        background: url(../images/martini.jpg) 0 0 no-repeat white;
+  
+        margin-top: 81px;
+        position: relative;
+        background-size: cover;
+    }
+
+    .droite {
+        position: absolute;
+        right: 20%;
+        top: 30%;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:1198px) {
+
+    /* section equipe */
+
+    section#team>article>h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+
+    section#team {
+        padding-top: 40px
+    }
+
+    h2+hr {
+        border: 2px solid black;
+        width: 68px;
+        margin: 3px 0 0 110px;
+    }
+
+    div#equipe>figure {
+        float: none;
+        margin-top: 10px;
+        width: 90%;
+        margin: auto;
+    }
+
+    figure>img {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    div#equipe {
+        width: 90%;
+        margin: auto
+    }
+
+    /* fin section equipe */
+
+
+
+
+
+    #a {
+        display: none
+    }
+
+    main {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+
+    .cocktails {
+        height: 184px;
+        width: 100%;
+        background: url(../images/martinibis.jpg) 0 0 no-repeat white;
+        background-size: cover;
+        margin: auto;
+
+    }
+
+    
+/* 
+    .droite {
+        position: initial;
+        width: 80%;
+        margin: auto;
+    } */
+}
+
+
+h1 {
+    font-size: 25px;
+}
+
+.droite>a {
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;
+    font-size: 15px;
+    border: 2px solid black;
+    margin: 15px 0;
+    display: block;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300
+}
+
+
+/* fin section accueil */

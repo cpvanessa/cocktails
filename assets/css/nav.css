@@ -1,0 +1,88 @@
+/* .topnav{
+
+    background: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+
+} */
+
+ul > a > img{
+    width: 34px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.topnav > ul{list-style: none}
+
+
+.topnav a.menu:hover{
+border-bottom: rgb(13, 9, 51) solid 2px;
+
+}
+.logo{
+    float: left;
+}
+.menu {
+    display: block;
+    float:right;
+    color:rgb(13, 9, 51);
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    height: 53px;
+    margin-right: 20px;
+
+   
+}
+
+.active {background: white}
+
+.topnav .icon{display:none}
+
+/* début responsive ecran taile infeferieur de 680px appel js ouverture et fermeture .icon */
+
+@media screen and (max-width: 600px){
+
+    .topnav{background:#333}
+    .topnav a:not(:first-child){
+
+        
+        display:none;
+    }
+    .topnav a.icon{
+        float: right;
+        display: block;
+        height: 53px;
+        color: white;
+        font-size: 20px;
+        background: transparent;
+        transition: .8s;
+        margin-top: 15px;
+        margin-right: 15px;
+    
+    }
+}
+
+/* responsive topnav liens a la vertical */
+
+@media screen and (max-width: 600px){
+
+    .topnav.responsive{position:fixed; width: 100%;}
+    .topnav.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+        color:black;
+        transform: rotate(90deg);
+
+    }
+    .topnav.responsive a{
+        float: none;
+        text-align: left;
+        display: block;
+    }
+}
