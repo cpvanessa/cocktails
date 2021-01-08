@@ -27,11 +27,7 @@ h1, h3{
     font-weight: bolder;
 }
 
-#linea{
-    border: 2px solid  rgb(133, 10, 10) ;
-    width: 300px;
-    margin: 10px 0 0 525px;
-}
+
 .intro{
     width: 100%;
     height: auto;
@@ -47,19 +43,23 @@ section>article>h3{
     text-align:inherit;
 }
 
-.container{
-    width: 500px;
-}
-form{
-    margin-top: 400px;
 
-}
 
 
 @media screen and (min-width:1199px) {
-
+    #linea{
+        border: 2px solid  rgb(133, 10, 10) ;
+        width: 300px;
+        margin: 10px 0 0 525px;
+    }
     
-
+    .container{
+        width: 500px;
+    }
+    form{
+        margin-top: 400px;
+    
+    }
 
   nav > ul>  a> img{width:80px;}
     /* section equipe */
@@ -256,6 +256,7 @@ li{
 
     .intro{
         width: 100%;
+       
     }
     .cocktails {
         height: 384px;
@@ -273,8 +274,65 @@ display:none;
 }
 
 @media screen and (max-width:1198px) {
+
+
+    #about{
+        width: 70%;
+       
+        margin: 40px 50px;
+    }
+  
+    #about > article >p+ul{
+        text-align:center;
+        margin-top: 20px;
+        
+    
+    }
+    #about  >article >p {
+    margin-top: 20px;
+    text-align:center;}
+
+    li{
+        list-style: none;
+        }
+
+
+    
+    #linea{
+        border: 2px solid  rgb(133, 10, 10) ;
+        width: 200px;
+        margin: 10px 0 15px 80px;
+    }
+
+    .linea2 {
+        border: 2px solid rgb(133, 10, 10) ;
+        width: 68px;
+        margin: 3px 0 0 110px;
+    }
+
+    #jeremy{
+        text-decoration: red;
+        font-size: 15px;
+        color: rgb(133, 10, 10) ;
+    }
+
+    .container{
+        width: 260px;
+    }
+    form{
+        margin-top: 400px;
+    
+    }
+
+    h1{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
 h4{
-    font-size: 70px;
+    font-size: 35px;
     text-align:center;
 }
     /* section equipe */
@@ -310,8 +368,10 @@ h4{
 
     div#equipe {
         width: 90%;
-        margin: auto
+        margin: 15px auto auto auto
     }
+
+    
 
     /* fin section equipe */
 
@@ -347,7 +407,7 @@ h1 {
 
 
 h2 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300
 }
 
