@@ -24,7 +24,7 @@ ul > a > img{
 .menu {
     display: block;
     float:right;
-    color: rgb(133, 10, 10) ;
+    color:rgb(16, 12, 40) ;
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
@@ -37,9 +37,9 @@ ul > a > img{
 }
 
 .topnav a.menu:hover{
-    border-bottom: rgb(133, 10, 10)  solid 2px;
+    border-bottom: rgb(16, 12, 40)  solid 2px;
     text-decoration: none;
-    color: rgb(133, 10, 10) ;
+    color: rgb(16, 12, 40) ;
     
     }
 

@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    color:  rgb(133, 10, 10) ;
+    color:  rgb(16, 12, 40) ;
     scroll-behavior: smooth
 }
 
@@ -48,7 +48,7 @@ section>article>h3{
 
 @media screen and (min-width:1199px) {
     #linea{
-        border: 2px solid  rgb(133, 10, 10) ;
+        border: 2px solid  rgb(21, 16, 53) ;
         width: 300px;
         margin: 10px 0 0 525px;
     }
@@ -67,22 +67,25 @@ section>article>h3{
     section#team>article>h2 {
         font-size: 25px;
     }
-
+    section#about>article>h2 {
+        font-size: 25px;
+    }
 
     section#team {
         padding-top: 60px
     }
 
     h2+hr {
-        border: 2px solid  rgb(133, 10, 10) ;
+        border: 2px solid  rgb(21, 16, 53) ;
         width: 68px;
         margin: 3px 0 0 110px;
+        
     }
 
     #jeremy{
-        text-decoration: red;
+        text-decoration: rgb(16, 12, 40)d;
         font-size: 15px;
-        color: rgb(133, 10, 10) ;
+        color: rgb(16, 12, 40) ;
     }
 
   
@@ -299,21 +302,21 @@ display:none;
 
     
     #linea{
-        border: 2px solid  rgb(133, 10, 10) ;
+        border: 2px solid  rgb(16, 12, 40) ;
         width: 200px;
         margin: 10px 0 15px 80px;
     }
 
     .linea2 {
-        border: 2px solid rgb(133, 10, 10) ;
+        border: 2px solid rgb(16, 12, 40);
         width: 68px;
         margin: 3px 0 0 110px;
     }
 
     #jeremy{
-        text-decoration: red;
+        text-decoration:rgb(16, 12, 40);
         font-size: 15px;
-        color: rgb(133, 10, 10) ;
+        color:rgb(16, 12, 40) ;
     }
 
     .container{
@@ -349,7 +352,7 @@ h4{
     }
 
     h2+hr {
-        border: 2px solid black;
+        border: 2px solid rgb(21, 16, 53);
         width: 68px;
         margin: 3px 0 0 110px;
     }
